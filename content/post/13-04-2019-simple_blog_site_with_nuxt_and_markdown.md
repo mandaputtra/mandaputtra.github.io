@@ -188,7 +188,7 @@ Enaknya memakai prism sendiri ini style dapat kita kustomisasi dengan mudah 😍
 
 Jika anda membaca sampai sini ini isinya hanya curhatan saja. Saya ada juga mengalami blocker lain selain kesusahan saat mengapliaksikan `mdx` di project ini. Salah-satunya adalah [purgecss](https://github.com/FullHuman/purgecss), project ini menggunakan [TailwindCSS](https://tailwindcss.com/docs/what-is-tailwind/) dimana jika tidak di kompress atau dikurangi class yang tidak digunakan maka size CSS-nya cukup besar yaitu 38.6kb.
 
-Saat saya memutuskan menggukan [purgecss](https://github.com/FullHuman/purgecss), CSS custom saya banyak kena *trim* 😄 walaupun susah saya include beberapa class yang tidak boleh di *trim*. Saya selalu strich soal size, saya sering curi *soure code*-nya [lodash](https://lodash.com/docs/4.17.11) kalau hanya dipakai 4/6 fungsi saja pada proyek saya daripada harus meng-install-nya.
+Saat saya memutuskan menggukan [purgecss](https://github.com/FullHuman/purgecss), CSS custom saya banyak kena *trim* 😄 walaupun sudah saya include beberapa class yang tidak boleh di *trim*. Saya selalu strich soal size, saya sering curi *soure code*-nya [lodash](https://lodash.com/docs/4.17.11) kalau hanya dipakai 4/6 fungsi saja pada proyek saya daripada harus meng-install-nya.
 
 **Commenting on blog** sebenarnya saya mau menyematkan fitur komen pada blog ini, menggunakan [utteranc.es](https://utteranc.es/) darapida discus ... tapi kok style-nya kurang cocok jadi saya harus menyesuaikannya sedikit dengan website ini.
 

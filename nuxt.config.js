@@ -21,7 +21,7 @@ module.exports = {
   */
   router: { base: '/' },
   head: {
-    title: pkg.name,
+    title: 'A blog to @mandaputtra',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },

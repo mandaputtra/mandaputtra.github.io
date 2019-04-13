@@ -8,7 +8,7 @@
 import Prism from 'prismjs'
 
 export default {
-  head () {
+  head() {
     return {
       title: this.post.title
     }
