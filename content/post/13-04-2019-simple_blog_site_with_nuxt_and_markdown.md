@@ -119,6 +119,49 @@ module.exports = {
 ```
 dengan tambahan script di `package.json` untuk run ini selesai sudah.
 
+Kita juga gunakan `blogpost.json` tadi pada `vuex` store untuk `fetch` data artikel ini.
+
+```js
+import dataJson from '../blogposts.json'
+
+export const state = () => ({
+  posts: [],
+  post: {}
+})
+
+export const mutations = {
+  updatePosts(state, postsJSON) {
+    state.posts = postsJSON
+  },
+  updatePost(state, { post }) {
+    state.post = post
+  }
+}
+
+export const actions = {
+  getPost({ commit, state }, slug) {
+    const post = state.posts.find(post => {
+      return post.slug === slug
+    })
+    commit('updatePost', { post: post })
+  },
+  getListOfPost({ commit, state }) {
+    if (state.posts.length === 0) commit('updatePosts', dataJson)
+  }
+}
+```
+
+naaah dengan ini kita `fetch` meta data blogpost kita yg ada pada *markdown* di *vue-template*
+
+```js
+fetch({ store, params }) {
+  // in case user reload the page
+  store.dispatch('getListOfPost')
+  //  fetch post
+  store.dispatch('getPost', params.slug)
+},
+```
+
 ## Code highlighting
 
 Saya pilih yang paling ringan [Prism.js](https://prismjs.com/) penggunaannya cukup simple.

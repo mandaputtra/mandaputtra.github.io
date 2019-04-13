@@ -8,6 +8,11 @@
 import Prism from 'prismjs'
 
 export default {
+  head () {
+    return {
+      title: this.post.title
+    }
+  },
   layout: 'blogpost',
   transition: 'bounce',
   computed: {
