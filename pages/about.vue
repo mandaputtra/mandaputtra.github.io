@@ -7,7 +7,6 @@
       </p>
 
       <p> My Personal CV and this page are still on working ... </p>
-
     </article>
   </section>
 </template>
