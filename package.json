@@ -1,9 +1,10 @@
 {
   "name": "mandaputtra.github.io",
   "version": "1.0.0",
-  "description": "My doozie Nuxt.js project",
+  "description": "A blog to @mandaputtra",
   "author": "mandaputtra",
-  "private": true,
+  "lisence": "MIT",
+  "private": false,
   "scripts": {
     "dev": "nuxt",
     "build": "nuxt build",
