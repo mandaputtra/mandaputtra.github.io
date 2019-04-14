@@ -14,8 +14,7 @@ export default {
   props: ['image', 'url', 'alt'],
   methods: {
     openLinks() {
-      // window.open(this.url)
-      console.log('URL', this.imageSrc)
+      window.open(this.url)
     }
   }
 }
