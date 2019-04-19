@@ -18,7 +18,10 @@
           Prefer My Resume/CV?
         </summary>
         <p class="text-center">
-          on progress create new Resume/CV
+          See my resume
+          <a href="https://docs.google.com/document/d/1u0HUed_PquAmJDqzSFCkIgMJwnE_Fvq4cu9MAstP-5Q/edit">
+            here
+          </a>
         </p>
       </details>
 
