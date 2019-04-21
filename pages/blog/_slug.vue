@@ -1,6 +1,6 @@
 <template>
   <div class="p-4">
-    <div class="article" v-html="postContent" />
+    <div class="article" v-html="postContent.default" />
   </div>
 </template>
 

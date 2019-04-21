@@ -54,7 +54,7 @@ module.exports = {
   /*
   ** Nuxt.js modules
   */
-  modules: [,
+  modules: [
     '@nuxtjs/pwa',
     '@nuxtjs/markdownit',
     '@nuxtjs/google-analytics',
@@ -67,7 +67,6 @@ module.exports = {
       }
     }
   },
-
   markdownit: {
     html: true,
     preset: 'default',
