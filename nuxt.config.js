@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 const path = require('path')
 const pkg = require('./package')
 const tailwindJS = path.join(__dirname, 'tailwind.js')
@@ -53,7 +54,12 @@ module.exports = {
   /*
   ** Nuxt.js modules
   */
-  modules: [, '@nuxtjs/pwa', '@nuxtjs/markdownit'],
+  modules: [,
+    '@nuxtjs/pwa',
+    '@nuxtjs/markdownit',
+    '@nuxtjs/google-analytics',
+    '@nuxtjs/dotenv',
+  ],
   render: {
     bundleRenderer: {
       shouldPreload: (file, type) => {
@@ -61,11 +67,15 @@ module.exports = {
       }
     }
   },
+
   markdownit: {
     html: true,
     preset: 'default',
     linkify: true,
     breaks: true
+  },
+  googleAnalytics: {
+    id: process.env.GA_ID || 'UA-12345612-12123'
   },
   /*
   ** Build configuration
