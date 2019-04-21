@@ -7,7 +7,8 @@ export const state = () => ({
 
 export const mutations = {
   updatePosts(state, postsJSON) {
-    state.posts = postsJSON
+    const reverse = postsJSON.reverse()
+    state.posts = reverse
   },
   updatePost(state, { post }) {
     state.post = post
