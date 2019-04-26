@@ -6,11 +6,11 @@
         I was born in 1997. I profesionally code since 2018
       </p>
 
-      <details :open="true" class="my-4">
+      <details class="my-4">
         <summary class="font-bold mb-2 ml-4">
           Read My Story
         </summary>
-        <section class="mx-4" v-html="storyPost" />
+        <section class="mx-4" v-html="storyPost.default" />
       </details>
 
       <details class="my-4">
@@ -29,28 +29,28 @@
         <summary class="font-bold mb-2 ml-4">
           My go to tools ...
         </summary>
-        <section class="mx-4" v-html="tools" />
+        <section class="mx-4" v-html="tools.default" />
       </details>
 
       <details class="my-4">
         <summary class="font-bold mb-2 ml-4">
           My dreams
         </summary>
-        <section class="mx-4" v-html="dreams" />
+        <section class="mx-4" v-html="dreams.default" />
       </details>
 
       <details class="my-4">
         <summary class="font-bold mb-2 ml-4">
           Contact me?
         </summary>
-        <section class="mx-4" v-html="contact" />
+        <section class="mx-4" v-html="contact.default" />
       </details>
 
       <details class="my-4">
         <summary class="font-bold mb-2 ml-4">
           My notes about this website
         </summary>
-        <section class="mx-4" v-html="notes" />
+        <section class="mx-4" v-html="notes.default" />
       </details>
     </article>
   </section>
