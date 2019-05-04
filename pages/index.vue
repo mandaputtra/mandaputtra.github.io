@@ -43,7 +43,8 @@ export default {
     const homePageHeight = (window.innerHeight - 128) / 3
     this.$anime({
       targets: '.box',
-      duration: 1500,
+      duration: 1000,
+      easing: 'easeInOutExpo',
       height: homePageHeight
     })
   }
