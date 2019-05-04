@@ -95,7 +95,7 @@ function recursiveFun() {
 }
 ```
 
-Cara kerja function diatas sangat simple, ambil `arr` posisi ke `i`, kalau `i` bukan 4 maka `i+1` panggil fungsi `recursiveFun()` lagi. Bagusnya function seperti ini dia menyimpan value variable yang ada diluarnya. Tentu ini sangat rare digunakan, dan saya sarankan tidak mengunakan ini kalu belum ketemu error seperti diatas yang ___mungkin___ saja solusinya adalah ini.
+Cara kerja function diatas sangat simple, ambil `arr` posisi ke `i`, kalau `element` bukan 4 maka `i+1` panggil fungsi `recursiveFun()` lagi. Bagusnya function seperti ini dia menyimpan value variable yang ada diluarnya. Tentu ini sangat rare digunakan, dan saya sarankan tidak mengunakan ini kalu belum ketemu error seperti diatas yang ___mungkin___ saja solusinya adalah ini.
 
 Salah satu code yang mungkin men-*trigger* error `possible EventEmitter memory leak detected.` :
 
