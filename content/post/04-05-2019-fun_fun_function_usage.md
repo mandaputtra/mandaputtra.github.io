@@ -182,8 +182,8 @@ Person.prototype.setName = function(name) {
   return this; // this adalah koenchi
 };
 
-Person.prototype.setShirt = function(color) {
-  this.color = color;
+Person.prototype.setShirt = function(shirt) {
+  this.shirt = shirt;
   return this; // this adalah koenchi
 };
 
@@ -238,7 +238,7 @@ ini dikarenakan `setName` sama sekali tidak me-*return* value, jadi saat `setGen
 🐨: That's another story...
 ```
 
-Yak terimakasih telah membaca sampai akhir seperti biasa saya selalu open feedback, silahakn buat issue di repo blog [ini](https://github.com/mandaputtra/mandaputtra.github.io/issues) atau mugkin mention saya di [twitter](https://twitter.com/_mandaputtra).
+Yak terimakasih telah membaca sampai akhir seperti biasa saya selalu open feedback, silahakan buat issue di repo blog [ini](https://github.com/mandaputtra/mandaputtra.github.io/issues) atau mugkin mention saya di [twitter](https://twitter.com/_mandaputtra).
 
 Wrapping up! sebenarnya masih ada banyak sekali function pattern yang biasa dipakai pada JavaScript tapi tentunya tidak bisa saya cover semua karena saya juga masih baru di dunia JS/Node.js ini, hal diatas hanya beberapa pattern yang setidaknya pernah saya gunakan, semoga dapat membantu saat ingin membuat *library* di npm atau malah ingin berkontribusi ke beberapa *library* yang sudah ada. Thanks all and as usual have a nice day! 😄
 
