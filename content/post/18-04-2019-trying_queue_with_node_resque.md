@@ -3,7 +3,7 @@ id: 2
 title: Trying Queue with node-resque
 created_date: 18/04/2019
 slug: trying_queue_with_node_resque
-filename: 18-04-2019-trying_queue_with_node_resque.md
+filename: 18-04-2019-trying_queue_with_node_resque
 category: tutorial
 ---
 
