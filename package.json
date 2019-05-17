@@ -21,7 +21,6 @@
     "@nuxtjs/google-analytics": "^2.2.0",
     "@nuxtjs/markdownit": "^1.2.3",
     "@nuxtjs/pwa": "^2.6.0",
-    "animejs": "^3.0.1",
     "cross-env": "^5.2.0",
     "nuxt": "^2.4.0",
     "prismjs": "^1.16.0"

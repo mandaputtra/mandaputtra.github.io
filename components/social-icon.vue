@@ -1,8 +1,8 @@
 <template>
-  <div class="flex-1">
+  <div class="my-4 mr-2">
     <img
       :src="require(`../static/img/${image}.svg`)"
-      class="h-10 w-10 block mx-auto"
+      class="h-6 w-6 block mx-auto"
       :alt="alt"
       @click="openLinks()"
     >

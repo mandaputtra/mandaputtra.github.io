@@ -128,6 +128,7 @@ module.exports = {
   */
 
   fonts: {
+    display: ['Abril\\ Fatface'],
     sans: [
       'system-ui',
       'BlinkMacSystemFont',
@@ -141,26 +142,6 @@ module.exports = {
       'Droid Sans',
       'Helvetica Neue',
       'sans-serif'
-    ],
-    serif: [
-      'Constantia',
-      'Lucida Bright',
-      'Lucidabright',
-      'Lucida Serif',
-      'Lucida',
-      'DejaVu Serif',
-      'Bitstream Vera Serif',
-      'Liberation Serif',
-      'Georgia',
-      'serif'
-    ],
-    mono: [
-      'Menlo',
-      'Monaco',
-      'Consolas',
-      'Liberation Mono',
-      'Courier New',
-      'monospace'
     ]
   },
 
