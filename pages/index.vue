@@ -1,14 +1,14 @@
 <template>
   <div>
     <div class="h-8 w-full flex my-8">
-      <p class="tracking-wide text-4xl text-black font-display font-bold">
+      <p class="tracking-wide text-4xl text-black font-display">
         <nuxt-link to="blog" class="no-underline text-black">
           Blog
         </nuxt-link>
       </p>
     </div>
     <div class="h-8 w-full flex my-8">
-      <p class="tracking-wide text-4xl font-display font-bold">
+      <p class="tracking-wide text-4xl font-display">
         <nuxt-link to="about" class="no-underline text-black">
           About
         </nuxt-link>

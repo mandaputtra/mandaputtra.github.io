@@ -16,7 +16,7 @@
       <ol>
         <li v-for="(post, index) in posts" :key="index" class="my-6 leading-normal text-base">
           <nuxt-link
-            :to="`${post.slug}`"
+            :to="`blog/${post.slug}`"
             class="nuxt-link-blog"
           >
             <span class="font-bold">{{ post.created_date }}</span> - {{ post.title }}

@@ -2,7 +2,7 @@
   <nav class="relative h-16 font-display">
     <div class="min-w-full flex flex-col items-center justify-center" @click="back()">
       <div class="w-full">
-        <h1 class="tracking-wide text-black text-dark">
+        <h1 class="tracking-wide font-light">
           {{ this.$store.state.post.title }}
         </h1>
       </div>
