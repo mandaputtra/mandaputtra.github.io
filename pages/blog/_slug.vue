@@ -1,7 +1,7 @@
 <template>
-  <div class="mt-8 pt-8">
+  <article class="mt-8 pt-8">
     <div class="article" v-html="postContent.default" />
-  </div>
+  </article>
 </template>
 
 <script>
@@ -10,7 +10,19 @@ import Prism from 'prismjs'
 export default {
   head() {
     return {
-      title: this.post.title
+      title: `mptr | ${this.post.title}`,
+      meta: [
+        {
+          hid: 'description',
+          name: 'description',
+          content: this.post.title
+        },
+        {
+          hid: 'og:description',
+          name: 'og:description',
+          content: this.post.title
+        }
+      ]
     }
   },
   layout: 'blogpost',
