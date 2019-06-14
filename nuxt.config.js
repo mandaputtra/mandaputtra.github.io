@@ -78,7 +78,7 @@ module.exports = {
     breaks: true
   },
   googleAnalytics: {
-    id: process.env.GA_ID || 'UA-12345612-12123'
+    id: process.env.GA_ID || 'UA-138696364-1'
   },
   /*
   ** Build configuration
