@@ -13,9 +13,9 @@ export default {
       title: `mptr | ${this.post.title}`,
       meta: [
         {
-          hid: 'description',
-          name: 'description',
-          content: this.post.title
+          hid: 'og:title',
+          name: 'og:title',
+          content: 'Manda Putra Blog'
         },
         {
           hid: 'og:description',
