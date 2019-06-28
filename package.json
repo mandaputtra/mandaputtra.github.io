@@ -1,0 +1,21 @@
+{
+  "name": "mandaputtra.github.io",
+  "version": "1.0.0",
+  "description": "Blog site for mandaputtra",
+  "main": "index.js",
+  "scripts": {
+    "start": "hugo server -D",
+    "build": "hugo",
+    "deploy": "push-dir --dir=public --branch=master --cleanup"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mandaputtra/mandaputtra.github.io.git"
+  },
+  "author": "mandaputtra",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mandaputtra/mandaputtra.github.io/issues"
+  },
+  "homepage": "https://github.com/mandaputtra/mandaputtra.github.io#readme"
+}
