@@ -36,7 +36,7 @@ I want to help people with my work, hopefully! *too much optimism here*
 
 # Acknowledgements
 
-This website uses [hugo](https://gohugo.io/) as static site generator and [Terminal Theme](https://github.com/panr/hugo-theme-terminal) from mr. [Radek](https://radoslawkoziel.pl/). This website source-cOde and material all licensed under MIT, you can get it by going to this [repo](https://github.com/mandaputtra/mandaputtra.github.io).
+This website uses [hugo](https://gohugo.io/) as static site generator and [Terminal Theme](https://github.com/panr/hugo-theme-terminal) from mr. [Radek](https://radoslawkoziel.pl/). This website source-cOde and material all licensed under MIT, you can get it by going to this [repo](https://github.com/mandaputtra/mandaputtra.github.io/tree/develop).
 
 Thanks, have a good day and be good people! ☺
 
