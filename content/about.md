@@ -1,22 +1,43 @@
 +++
-title = "About"
-date = "2019-01-25"
-author = "Radek"
+title = "Hi My Name is Manda Putra"
+date = "2019-06-29"
+author = "mandaputtra"
 +++
 
-# Hi there
+I'm an Software Engineer with special ability on Web Development. I enjoy making thing's, help other people, solving puzzle and playing games! You can play Free Fire with me here's my ID **11146868** and lest play together!.
 
-My name is Radek and I'm the author of this theme. I made it to help you present your ideas easier.
+# Prefer My CV?
 
-We all know how hard is to start something on the web, especially these days. You need to prepare a bunch of stuff, configure them and when that’s done — create the content.
+Go [here](https://docs.google.com/document/d/1u0HUed_PquAmJDqzSFCkIgMJwnE_Fvq4cu9MAstP-5Q/edit?usp=sharing)
 
-This theme is pretty basic and covers all of the essentials. All you have to do is start typing!
+# Tool's that I usually use
 
-The theme includes:
+ - Language : PHP, Javascript
+ - Front-End Framework : Vue.js, Angular.js, Electron
+ - Back-End Development : Express.js, Fastify, Feathers
+ - Database : postgres, mongodb
+ - Skills : real-time application, electron app development, all things Web Development
 
-- **5 duotone themes**, depending on your preferences (orange, red, blue, green, pink)
-- [**Fira Code**](https://github.com/tonsky/FiraCode) as default monospaced font. It's gorgeous!
-- **realy nice, custom duotone** syntax highlighting based on [**PrismJS**](https://prismjs.com)
-- mobile friendly layout
 
-So, there you have it... enjoy!
+What I'm good at? well.. I usually build real-time application, web-API and web-Microservices! if that's what you search for go ahead and email me. I prefer work with Node.js.
+
+What I'm not good at? CSS, HTML I'm not good at design. I always prefer design to be simple whatsoever. Translating your Zeplin design to a good looking website aren't my expertise, however I'm learning.
+
+# Dream
+
+I want to help people with my work, hopefully! *too much optimism here*
+
+# Contact Me?
+
+ - Github - [mandaputtra](https://github.com/mandaputtra)
+ - Email - [mandaputra8@gmail.com](mail:mandaputra8@gmail.com)
+ - Twitter - [_mandaputtra](https://twitter.com/_mandaputtra)
+- or go find out with my magical username `mandaputtra`
+
+# Acknowledgements
+
+This website uses [hugo](https://gohugo.io/) as static site generator and [Terminal Theme](https://github.com/panr/hugo-theme-terminal) from mr. [Radek](https://radoslawkoziel.pl/). This website source-cOde and material all licensed under MIT, you can get it by going to this [repo](https://github.com/mandaputtra/mandaputtra.github.io).
+
+Thanks, have a good day and be good people! ☺
+
+
