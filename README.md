@@ -1,22 +1,14 @@
-# mandaputtra.github.io
+# A simple Website for Lazy Back-End Developer Mandaputtra
 
-> My doozie Nuxt.js project
+A website that powered by Hugo and use [Terminal Theme](https://github.com/panr/hugo-theme-terminal) from mr. [Radek](https://radoslawkoziel.pl/), this website mostly contain my Indonesian blog post, if you prefer English go to my [Dev.to Profile](https://dev.to/mandaputtra) :smile:
 
-## Build Setup
+# How to run?
 
-``` bash
-# install dependencies
-$ yarn install
-
-# serve with hot reload at localhost:3000
-$ yarn run dev
-
-# build for production and launch server
-$ yarn run build
-$ yarn start
-
-# generate static project
-$ yarn run generate
+```bash
+ # Install Hugo
+ # Install Node.js (Stable) # I use it for task runner only
+ $ hugo serve -D # server and watch
+ $ hugo # build
 ```
 
-For detailed explanation on how things work, checkout [Nuxt.js docs](https://nuxtjs.org).
+That's it! Thanks
