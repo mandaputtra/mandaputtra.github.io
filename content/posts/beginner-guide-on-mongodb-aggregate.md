@@ -51,7 +51,7 @@ We will learn how to use `$facet`, `$match`, `$unwind`, `$project`, and `$group`
   ....
 }
 ```
-# 1st case : get all message from one user and return his last message
+## Get all message from one user and return his last message
 
 Okay in order to do this you could use `$match: { clients: "sillybilly@mail.com" }` but how to display the last message only, you could use `$project`
 
@@ -83,7 +83,7 @@ so `$project` takes field or result on previous result and project it, you can g
 
 "Ewww but how come that data are okay? you only had one message, why do you need an array? I don't need that! and why I should go to the `message` field takes array [0] and get sender" - a wholesome frontend developer.
 
-# 2nd case: get what that frontend developer wants
+## Get what that frontend developer wants
 
 Assume that you just select sillybilly as the sender, the one that uses your application, and other users that on **clients array** are other. `$unwind` to the rescue.
 
@@ -135,7 +135,7 @@ db.getCollection('chats').aggregate([
 ```
 Okay nice now send a message to the frontend developer again. But hold on you see the design again it got unread message badge... you should count it. Hmmm. You sit down again and thingking..
 
-# 3rd case: count unread message inside an array of messages object
+## Count unread message inside an array of messages object
 
 Do you feel it the syntax of `{{{{}}}}` already? :lol:.
 
@@ -176,7 +176,7 @@ db.getCollection('chats').aggregate([
 
 So now you got a beautiful response from your database, the only thing you missing from the design UI is pagination!
 
-# 4th case : paginate .aggregate() using $facet
+## Paginate .aggregate() using $facet
 
 The docs about `$facet` say something like this: "Processes multiple aggregation pipelines within a single stage on the same set of input documents".
 

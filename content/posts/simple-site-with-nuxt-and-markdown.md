@@ -1,5 +1,5 @@
 +++
-title = "Simple Site WIth Nuxt.js and Markdown"
+title = "Simple Site With Nuxt.js and Markdown"
 date = "2019-04-13"
 author = "mandaputtra"
 cover = ""

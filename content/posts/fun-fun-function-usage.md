@@ -107,7 +107,7 @@ for (let i = 0; i < arr.length; i++) {
 ```
 Jarang terjadi tapi mungkin anda alami, jangan sekali kali menambah `eventListener` kalau memang tidak perlu atau tidak bisa dihindari.
 
-# Closures Function
+## Closures Function
 
 Saya yakin kalau ini sering banyak digunakan dan sangat saya sarankan digunakan. closures merupakan sebuah pattern untuk memberikan private access pada sebuah variable dalam sebuah *function*. Saya ambil contoh dari MDN saja.
 
