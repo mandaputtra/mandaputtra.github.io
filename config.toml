@@ -16,7 +16,7 @@ paginate = 5
 [languages]
   [languages.en]
     title = "mandaputtra"
-    subtitle = "A simple blog from a simple developer"
+    subtitle = "Do you a curious dev?"
     keywords = ""
     copyright = ""
     menuMore = "Show more"
@@ -44,3 +44,7 @@ paginate = 5
         identifier = "showcase"
         name = "Showcase"
         url = "/showcase"
+      [[languages.en.menu.main]]
+        identifier = "now"
+        name = "Now"
+        url = "/now"
