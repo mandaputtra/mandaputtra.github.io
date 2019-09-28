@@ -8,17 +8,17 @@ description = "Today I learn how can we modified a HTTP response from a browser"
 
 > So learning code more easy if you read other people code, so be it I made this sort of episode Howk (How does it work) by reading some Open Source project, explain technically and maybe we can get some insight after it.
 
-Recently I got stumbled on Open Source chrome extension named [bandwidth-hero](https://github.com/ayastreb/bandwidth-hero) developed by **@ayastreb** the usage of this extension are very simple, just install the extension from chrome or firefox store, insert your [server](https://github.com/ayastreb/bandwidth-hero-proxy) url (I use my own proxy server, localhost works too), and enable it.
+Recently I got stumbled on Open Source chrome extension named [bandwidth-hero](https://github.com/ayastreb/bandwidth-hero) developed by **@ayastreb** the usage of this extension are very simple, just install the extension from chrome or firefox store, insert your [server](https://github.com/ayastreb/bandwidth-hero-proxy) URL (I use my own proxy server, localhost works too), and enable it.
 
 The extension will start saving your data-plan by compress the image you requested around the web.
 
-So, I `git clone` the repo and try to making sense on how this could works.
+So, I `git clone` the repo and try to making sense of how this could work.
 
 ## It's just a proxy
 
 > In computer networks, a proxy server is a server that acts as an intermediary for requests from clients seeking resources from other servers. - Wikipedia
 
-If you notice on your *devtools* network tab with the extension enabled, you requested `https://placekeanu/700/350` but on network tab it says `http://myserver.dev/?url=https%3A%2F%2Fplacekeanu.com%2F700%2F350&l=40` - it pointed to my server and respond a binary result of an image you requested. But the `img-src` tag still on `https://placekeanu/700/350`.
+If you notice on your *dev tools* network tab with the extension enabled, you requested `https://placekeanu/700/350` but on network tab, it says `http://myserver.dev/?url=https%3A%2F%2Fplacekeanu.com%2F700%2F350&l=40` - it pointed to my server and respond a binary result of an image you requested. But the `img-src` tag still on `https://placekeanu/700/350`.
 
 The image aren't saved on the server it is on the fly compression. The cookie itself requested using your server, so it is your server requested the image not the browser.
 
