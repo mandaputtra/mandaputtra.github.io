@@ -1,6 +1,6 @@
 # A simple Website for Lazy Back-End Developer Mandaputtra
 
-A website that powered by Hugo and use [Terminal Theme](https://github.com/panr/hugo-theme-terminal) from mr. [Radek](https://radoslawkoziel.pl/), this website mostly contain my Indonesian blog post, if you prefer English go to my [Dev.to Profile](https://dev.to/mandaputtra) :smile:
+A website that powered by Hugo and use [Hello Friend Theme](https://github.com/panr/hugo-theme-hello-friend) from [Radek](https://radoslawkoziel.pl/)
 
 # How to run?
 
