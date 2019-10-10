@@ -45,6 +45,10 @@ paginate = 5
         name = "Showcase"
         url = "/showcase"
       [[languages.en.menu.main]]
+        identifier = "archive"
+        name = "Archive"
+        url = "/archive"
+      [[languages.en.menu.main]]
         identifier = "now"
         name = "Now"
         url = "/now"
