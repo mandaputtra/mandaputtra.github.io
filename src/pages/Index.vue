@@ -1,6 +1,6 @@
 <template>
   <Layout>
-    <article class="w-full px-2">
+    <article class="px-2">
       <section class="flex m-auto flex-col max-w-xl">
         <p class="mb-4">
           Hello, I ussualy blog about code <a class="text-blue-600 underline"
