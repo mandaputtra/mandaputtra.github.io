@@ -6,7 +6,7 @@
     "develop": "NODE_ENV=development gridsome develop",
     "explore": "gridsome explore",
     "lint:fix": "eslint --fix --ext .js,.vue --ignore-path .gitignore .",
-    "deploy": "push-dir --dir=public --branch=master --cleanup"
+    "deploy": "push-dir --dir=dist --branch=master --cleanup"
   },
   "dependencies": {
     "gridsome": "latest"
