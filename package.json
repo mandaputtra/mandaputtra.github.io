@@ -1,21 +1,24 @@
 {
-  "name": "mandaputtra.github.io",
-  "version": "1.0.0",
-  "description": "Blog site for mandaputtra",
-  "main": "index.js",
+  "name": "blog",
+  "private": true,
   "scripts": {
-    "start": "hugo server -D",
-    "build": "hugo",
-    "deploy": "push-dir --dir=public --branch=master --cleanup"
+    "build": "NODE_ENV=production gridsome build",
+    "develop": "NODE_ENV=development gridsome develop",
+    "explore": "gridsome explore",
+    "lint:fix": "eslint --fix --ext .js,.vue --ignore-path .gitignore ."
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/mandaputtra/mandaputtra.github.io.git"
+  "dependencies": {
+    "gridsome": "latest"
   },
-  "author": "mandaputtra",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/mandaputtra/mandaputtra.github.io/issues"
-  },
-  "homepage": "https://github.com/mandaputtra/mandaputtra.github.io#readme"
+  "devDependencies": {
+    "@fullhuman/postcss-purgecss": "^1.3.0",
+    "eslint": "^6.7.2",
+    "eslint-config-standard": "^14.1.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-node": "^10.0.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1",
+    "eslint-plugin-vue": "^6.0.1",
+    "tailwindcss": "^1.1.4"
+  }
 }

@@ -1,14 +1,14 @@
-# A simple Website for Lazy Back-End Developer Mandaputtra
+# Default starter for Gridsome
 
-A website that powered by Hugo and use [Hello Friend Theme](https://github.com/panr/hugo-theme-hello-friend) from [Radek](https://radoslawkoziel.pl/)
+This is the project you get when you run `gridsome create new-project`.
 
-# How to run?
+### 1. Install Gridsome CLI tool if you don't have
 
-```bash
- # Install Hugo
- # Install Node.js (Stable) # I use it for task runner only
- $ hugo serve -D # server and watch
- $ hugo # build
-```
+`npm install --global @gridsome/cli`
 
-That's it! Thanks
+### 2. Create a Gridsome project
+
+1. `gridsome create my-gridsome-site` to install default starter
+2. `cd my-gridsome-site` to open the folder
+3. `gridsome develop` to start a local dev server at `http://localhost:8080`
+4. Happy coding 🎉🙌
