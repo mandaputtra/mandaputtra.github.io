@@ -10,8 +10,10 @@
             href="https://dev.to/search?q=indonesia%20mandaputtra">indonesian</a>.
         </p>
         <p class="mb-4">
-          Oh yeah, I'm programmer mostly writting JavaScript, and some another script lang.
-          I like scripting and writing programs, I mostly interested on real-time alpication, web services,
+          Oh yeah, I'm <span class="font-bold">programmer</span> mostly writting
+          <span class="bold">JavaScript</span>, and some another script lang.
+          I like scripting and writing programs,
+          I mostly interested on real-time alpication, web services,
           databases, and that kind of stuff.
         </p>
       </section>
@@ -24,6 +26,10 @@
             </div>
           </li>
         </ul>
+        <p class="mb-4 font-bold">Work with me?</p>
+        <p class="mb-4">
+          <span class="font-bold">Just contact me via email</span>, I'll give my best to develop your software / servers needs.
+        </p>
         <links />
       </section>
     </article>
@@ -40,7 +46,7 @@ export default {
     whats: [
       'Helping Vue.js Indonesia, maintain the github Organizations especially on Docs Translation',
       'Learning new language, Go and Elixir ~ I found it interesting',
-      'Building something..',
+      'Building something.. and try to expand my knowledge upon Open Source projects',
       'I mean we are all building something right'
     ]
   })
