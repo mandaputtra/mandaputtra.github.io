@@ -1,8 +1,6 @@
 module.exports = {
   content: [
-    './src/**/*.vue',
-    './src/**/*.js',
-    './src/**/*.html'
+    './src/**/*.js'
   ],
   whitelist: ['svg:not(:root).svg-inline--fa'],
   whitelistPatterns: [/^fa-/, /^svg-inline--fa/],
