@@ -28,8 +28,13 @@
         </ul>
         <p class="mb-4 font-bold">Work with me?</p>
         <p class="mb-4">
-          <span class="font-bold">Just contact me via email</span>, Oh yeah if forgot,
-          Here my <a href="https://docs.google.com/document/d/1u0HUed_PquAmJDqzSFCkIgMJwnE_Fvq4cu9MAstP-5Q/edit?usp=sharing">CV</a>
+          Just contact me via email, Oh yeah I forgot,
+          Here my
+          <a
+            href="https://docs.google.com/document/d/1u0HUed_PquAmJDqzSFCkIgMJwnE_Fvq4cu9MAstP-5Q/edit?usp=sharing"
+            class="text-blue-600 underline">
+            CV
+          </a>
         </p>
         <links />
       </section>
