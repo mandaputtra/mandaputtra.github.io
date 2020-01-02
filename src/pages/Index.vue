@@ -52,6 +52,7 @@ export default {
     whats: [
       'Helping Vue.js Indonesia, maintain the github Organizations especially on Docs Translation',
       'Learning new language, Go and Elixir ~ I found it interesting',
+      'Creating a book on how to learn programming, cause once I`m a perfect noob that you may hate ~ till now I think',
       'Building something.. and try to expand my knowledge upon Open Source projects',
       'I mean we are all building something right'
     ]
