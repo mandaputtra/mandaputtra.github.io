@@ -1,5 +1,9 @@
 module.exports = {
   siteName: 'mandaputtra',
+  siteDescription: 'Someone tell me that a website is home for many ideas, this is what I do now.',
+  siteUrl: 'https://mandaputtra.github.io',
+  titleTemplate: '%s | mandaputtra',
+  icon: 'src/favicon.png',
   chainWebpack: config => {
     config.module
       .rule('css')
@@ -7,6 +11,7 @@ module.exports = {
       .use('postcss-loader')
       .tap(options => {
         options.plugins.unshift(...[
+          require('autoprefixer'),
           require('tailwindcss')
         ])
 

@@ -3,10 +3,10 @@
     <article class="px-2">
       <section class="flex m-auto flex-col max-w-xl">
         <p class="mb-4">
-          <span class="font-bold">Hello,</span> I ussualy blog about code <a class="text-blue-600 underline"
+          <span class="font-bold">Hello,</span> I ussualy blog about code <a class="text-red-800 underline"
             href="https://dev.to/mandaputtra">here</a>, if
           you're
-          indonesian some of my blog post are in <a class="text-blue-600 underline"
+          indonesian some of my blog post are in <a class="text-red-800 underline"
             href="https://dev.to/search?q=indonesia%20mandaputtra">indonesian</a>.
         </p>
         <p class="mb-4">
@@ -32,7 +32,7 @@
           Here my
           <a
             href="https://docs.google.com/document/d/1u0HUed_PquAmJDqzSFCkIgMJwnE_Fvq4cu9MAstP-5Q/edit?usp=sharing"
-            class="text-blue-600 underline">
+            class="text-red-800 underline">
             CV
           </a>
         </p>
@@ -44,6 +44,7 @@
 
 <script>
 import links from '../components/links'
+
 export default {
   components: {
     links
