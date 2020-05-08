@@ -16,7 +16,7 @@ Stuff goes on the call stack when it's called, and pops off the stack when it re
 ```js
 function () {
   console.log("Hello")
-}
+} 
 ```
 
 The Javascript runtime can only do one thing at a time (is single-threaded), but pieces of the surrounding environment (WebAPIs in the browser or C++ APIs in the node server) can give JS the option to do more stuff. Like the ajax (XHR) web api, or setTimeout. 
