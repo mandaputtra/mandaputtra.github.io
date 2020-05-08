@@ -1,0 +1,23 @@
+{
+  "title": "mandaputtra spaces",
+  "heading": "(〃￣ω￣〃ゞ",
+  "url": "https://cassey-til.glitch.me/",
+  "description": "What have you learned today?",
+  "feed": {
+    "subtitle": "What have you learned today?",
+    "filename": "feed.xml",
+    "path": "/feed/feed.xml",
+    "url": "https://cassey-til.glitch.me/feed/feed.xml",
+    "id": "https://cassey-til.glitch.me/"
+  },
+  "author": {
+    "name": "Cassey Lottman",
+    "site": "https://cassey.dev",
+    "github_username": "clottman",
+    "glitch_username": "Cassey"
+  },
+  "favicon": "https://cdn.glitch.com/238f8585-6bd5-40c4-a0ff-2b87d4acea6c%2Ftil-16.png?v=1561397433743",
+  "social_image": "https://cdn.glitch.com/238f8585-6bd5-40c4-a0ff-2b87d4acea6c%2Fknowledge-256.png?v=1561398158147",
+  "social_image_height": 256,
+  "social_image_width": 256
+}
