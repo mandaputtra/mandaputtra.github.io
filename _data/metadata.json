@@ -2,22 +2,26 @@
   "title": "mandaputtra spaces",
   "heading": "(〃￣ω￣〃ゞ",
   "url": "https://cassey-til.glitch.me/",
-  "description": "What have you learned today?",
+  "description": "A curious persona.",
   "feed": {
-    "subtitle": "What have you learned today?",
+    "subtitle": "A curious persona",
     "filename": "feed.xml",
     "path": "/feed/feed.xml",
-    "url": "https://cassey-til.glitch.me/feed/feed.xml",
-    "id": "https://cassey-til.glitch.me/"
+    "url": "https://mandaputtra.github.io/",
+    "id": "https://mandaputtra.github.io/"
   },
   "author": {
-    "name": "Cassey Lottman",
-    "site": "https://cassey.dev",
-    "github_username": "clottman",
-    "glitch_username": "Cassey"
+    "name": "Manda Puttra",
+    "site": "https://mandaputtra.github.io/",
+    "socials": [
+      { "text": "Github", "icon": "", "handle": "https://github.com/mandaputtra" },
+      { "text": "Email", "icon": "", "handle": "mandaputra8@gmail.com" },
+      { "text": "Linkedin", "icon": "", "handle": "https://www.linkedin.com/in/mandaputra8/" },
+      { "text": "Twitter", "icon": "", "handle": "mandaputtra" }
+    ]
   },
   "favicon": "https://cdn.glitch.com/238f8585-6bd5-40c4-a0ff-2b87d4acea6c%2Ftil-16.png?v=1561397433743",
-  "social_image": "https://cdn.glitch.com/238f8585-6bd5-40c4-a0ff-2b87d4acea6c%2Fknowledge-256.png?v=1561398158147",
+  "social_image": "https://avatars1.githubusercontent.com/u/23342943?s=460&u=3a5d64c4c86dfbe552ed689e2f968105dff2553a&v=4",
   "social_image_height": 256,
   "social_image_width": 256
 }
