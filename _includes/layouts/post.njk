@@ -6,7 +6,9 @@ layout: layouts/base.njk
 <article>
   <header>
     <h1>{{ title }}</h1>
-    <h2>{{ date | readableDate }}</h2>
+    {% if date %}
+      <h2>{{ date | readableDate }}</h2>
+    {% endif %}
   </header>
   <div>
     <div>

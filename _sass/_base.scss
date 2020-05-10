@@ -1,7 +1,3 @@
-// reset some styles
-
-// end reset
-
 main {
   max-width: 70ch;
   padding: 2ch;
@@ -19,6 +15,11 @@ h1 {
   font-size: 2rem;
   margin: 1rem 0;
   font-weight: 600;
+}
+
+img {
+  width: 100vw;
+  max-width: 70ch;
 }
 
 body {
@@ -86,6 +87,20 @@ body {
   pre {
     width: 100vw;
     max-width: 100ch;
+    position: relative;
+    left: 50%;
+    margin-left: -50vw !important;
+  }
+
+  img {
+    max-width: 100ch;
+    position: relative;
+    left: 50%;
+    margin-left: -50vw !important;
+  }
+
+  iframe {
+    width: 100vw !important;
     position: relative;
     left: 50%;
     margin-left: -50vw !important;
