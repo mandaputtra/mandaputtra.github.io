@@ -1,0 +1,18 @@
+main {
+  max-width: 70ch;
+  padding: 2ch;
+  margin: auto;
+}
+
+
+// the .full-bleed utilities
+// make full bleed on mobile devices
+@include media-query($on-palm) {
+  pre {
+    width: 100vw;
+    max-width: 100ch;
+    position: relative;
+    left: 50%;
+    margin-left: -50vw !important;
+  }  
+}
