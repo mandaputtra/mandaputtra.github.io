@@ -1,9 +1,22 @@
+// reset some styles
+
+// end reset
+
 main {
   max-width: 70ch;
   padding: 2ch;
   margin: auto;
 }
 
+body {
+  background-color: $background-color;
+  font-family: $base-font-family;
+}
+
+.header-wrapper {
+  background-color: $tags-color;
+  color: $background-color;
+}
 
 // the .full-bleed utilities
 // make full bleed on mobile devices
@@ -14,5 +27,5 @@ main {
     position: relative;
     left: 50%;
     margin-left: -50vw !important;
-  }  
+  }
 }

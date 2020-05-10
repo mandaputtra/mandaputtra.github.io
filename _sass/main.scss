@@ -1,3 +1,4 @@
+// storing variables and mixins
 @charset "utf-8";
 
 // Our variables
@@ -26,8 +27,4 @@ $on-palm: 880px;
 
 
 // Import partials from `sass_dir` (defaults to `_sass`)
-@import
-    "base",
-    "layout",
-    "page"
-;
+@import "base";
