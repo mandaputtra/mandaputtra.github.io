@@ -7,6 +7,7 @@ main {
   padding: 2ch;
   margin: auto;
   position: relative;
+  font-size: large;
 }
 
 p {
@@ -80,7 +81,7 @@ body {
 }
 
 // the .full-bleed utilities
-// make full bleed on mobile devices
+// make full bleed on mobile / tablet device
 @include media-query($on-palm) {
   pre {
     width: 100vw;
@@ -92,6 +93,10 @@ body {
 }
 
 @include media-query($on-super-small) {
+  main {
+    font-size: medium;
+  }
+
   .header-wrapper {
     flex-direction: column;
     text-align: center;
@@ -102,16 +107,6 @@ body {
 
     ul {
       margin: 0 auto;
-    }
-  }
-
-  .footer-wrapper {
-    ul {
-      flex-direction: column;
-
-      li {
-        margin-bottom: .5rem;
-      }
     }
   }
 }
