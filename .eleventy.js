@@ -2,7 +2,6 @@ const { DateTime } = require("luxon");
 const pluginRss = require("@11ty/eleventy-plugin-rss");
 const pluginSyntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
 const fs = require("fs");
-const path = require("path");
 const getTagList = require("./_11ty/getTagList");
 
 module.exports = function(eleventyConfig) {

@@ -1,6 +1,6 @@
 ---
 tags: ["post", "javascript"]
-title: "Watching 'What the heck is the event loop, anyways?'"
+title: "Watching 'What the heck is the event oop, anyways?'"
 description: "Now I know!"
 date: 2020-04-21
 ---

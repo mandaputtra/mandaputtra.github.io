@@ -3,13 +3,13 @@ layout: layouts/base.njk
 ---
 
 
-<article class="post">
-  <header class="post-header">
-    <h1 class="post-title">{{ title }}</h1>
-    <h2 class="post-date">{{ date | readableDate }}</h2>
+<article>
+  <header>
+    <h1>{{ title }}</h1>
+    <h2>{{ date | readableDate }}</h2>
   </header>
-  <div class="post-body">
-    <div class="post-content">
+  <div>
+    <div>
       {{ content | safe }}
     </div>
   </div>
