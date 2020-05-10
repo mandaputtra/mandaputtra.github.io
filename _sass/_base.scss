@@ -14,6 +14,12 @@ p {
   line-height: 1.5;
 }
 
+h1 {
+  font-size: 2rem;
+  margin: 1rem 0;
+  font-weight: 600;
+}
+
 body {
   background-color: $background-color;
   font-family: $base-font-family;
@@ -26,12 +32,13 @@ body {
   margin-bottom: 2rem;
   display: flex;
   justify-content: space-between;
-  padding: 1rem 0.2rem;
+  padding: 1rem 0.4rem;
 
   // logo
   h1 {
     font-size: 1.25em;
     font-weight: 600;
+    margin: 0;
 
     a {
       color: $background-color;
@@ -51,6 +58,27 @@ body {
   }
 }
 
+.footer-wrapper {
+  margin-top: 2rem;
+  background-color: $border-color;
+  padding: .5rem 0.4rem;
+  color: $background-color;
+  font-weight: 600;
+
+  ul {
+    display: flex;
+
+    li {
+      margin-right: 1rem;
+
+      a {
+        color: $background-color;
+      }
+    }
+  }
+  
+}
+
 // the .full-bleed utilities
 // make full bleed on mobile devices
 @include media-query($on-palm) {
@@ -63,8 +91,27 @@ body {
   }
 }
 
-@include media-query($on-small) {
+@include media-query($on-super-small) {
   .header-wrapper {
     flex-direction: column;
+    text-align: center;
+    
+    h1 {
+      margin-bottom: 1rem;
+    }
+
+    ul {
+      margin: 0 auto;
+    }
+  }
+
+  .footer-wrapper {
+    ul {
+      flex-direction: column;
+
+      li {
+        margin-bottom: .5rem;
+      }
+    }
   }
 }

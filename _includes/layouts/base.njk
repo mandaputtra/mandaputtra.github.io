@@ -47,24 +47,16 @@
       </div>
     </section>
 
-    <footer class="site-footer">
+    <footer class="footer-wrapper">
       <div>
-        <h2>{{ metadata.title }}</h2>
-        <div>
-          <div>
-            <ul>
-              {% for social in metadata.author.socials %}
-                <li>
-                 <a href="{{ social.handle }}"> {{ social.text }} </a> </li>
-              {% else %}
-                <li>Ho, call me if you find me on socials media - thats not me</li>
-              {% endfor %}
-            </ul>
-          </div>
-          <div>
-            <p>{{ site.description }}</p>
-          </div>
-        </div>
+        <ul>
+          {% for social in metadata.author.socials %}
+            <li>
+              <a href="{{ social.handle }}"> {{ social.text }} </a> </li>
+          {% else %}
+            <li>Ho, call me if you find me on socials media - thats not me</li>
+          {% endfor %}
+        </ul>
       </div>
     </footer>
 
