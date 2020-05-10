@@ -6,6 +6,12 @@ main {
   max-width: 70ch;
   padding: 2ch;
   margin: auto;
+  position: relative;
+}
+
+p {
+  margin: 0.8rem 0;
+  line-height: 1.5;
 }
 
 body {
@@ -16,6 +22,33 @@ body {
 .header-wrapper {
   background-color: $tags-color;
   color: $background-color;
+  border-top: 1rem $border-color solid;
+  margin-bottom: 2rem;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 0.2rem;
+
+  // logo
+  h1 {
+    font-size: 1.25em;
+    font-weight: 600;
+
+    a {
+      color: $background-color;
+      text-decoration: none;
+    }
+  }
+
+  ul {
+    display: flex;
+    li {
+      margin: 0 0.5rem;
+      a {
+        color: $background-color;
+        font-weight: 600;
+      }
+    }
+  }
 }
 
 // the .full-bleed utilities
@@ -27,5 +60,11 @@ body {
     position: relative;
     left: 50%;
     margin-left: -50vw !important;
+  }
+}
+
+@include media-query($on-small) {
+  .header-wrapper {
+    flex-direction: column;
   }
 }
