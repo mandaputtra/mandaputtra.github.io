@@ -1,3 +1,9 @@
+
+body {
+  background-color: $background-color;
+  font-family: $base-font-family;
+}
+
 main {
   max-width: 70ch;
   padding: 2ch;
@@ -44,9 +50,23 @@ img {
   max-width: 70ch;
 }
 
-body {
-  background-color: $background-color;
-  font-family: $base-font-family;
+blockquote {
+  background: #f9f9f9;
+  border-left: 10px solid #ccc;
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
+  quotes: "\201C""\201D""\2018""\2019";
+}
+blockquote:before {
+  color: #ccc;
+  content: open-quote;
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+}
+blockquote p {
+  display: inline;
 }
 
 .header-wrapper {
@@ -100,7 +120,39 @@ body {
       }
     }
   }
-  
+}
+
+.postlist-wrapper {
+  display: flex;
+  flex-direction: column;
+
+  .postlist {
+    margin: .5rem 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    .postlist-title {
+      margin-right: 1rem;
+    }
+
+    .postlist-title::before {
+      content: "📖";
+    }
+
+    .postlist-date {
+      margin-right: 1rem;
+    }
+
+    .postlist-tag {
+      margin-right: 0.5rem;
+      text-decoration: none;
+      background-color: $tags-color;
+      color: $background-color;
+      padding: 0.1rem 0.3rem;
+      border-radius: 5px;
+    }
+  }
 }
 
 // the .full-bleed utilities

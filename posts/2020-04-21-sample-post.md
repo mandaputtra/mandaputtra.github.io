@@ -5,6 +5,8 @@ description: "Now I know!"
 date: 2020-04-21
 ---
 
+> Mighty blockquotes styles I stole from css-tricks - Manda Putra
+
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis quis elit sollicitudin, euismod ante eu, tempor ex. Nam nec elit nisi. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Vivamus blandit neque nec ipsum rhoncus, in mollis diam lacinia. Curabitur tortor massa, sollicitudin vitae nisi eu, accumsan rutrum sem. Mauris eget pharetra neque. Maecenas interdum sagittis pretium. Pellentesque bibendum, augue at cursus tempus, enim magna mollis purus, vel commodo dolor sapien eget nunc. 
 
 <p class="codepen" data-height="265" data-theme-id="dark" data-default-tab="css,result" data-user="cassidoo" data-slug-hash="GRpNBmG" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="Where the heck do I work">
