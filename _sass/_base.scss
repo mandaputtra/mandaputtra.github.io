@@ -14,7 +14,7 @@ main {
 
 p {
   margin: 0.8rem 0;
-  line-height: 1.5;
+  line-height: 1.6;
 }
 
 h1 {
@@ -51,20 +51,24 @@ img {
 }
 
 blockquote {
-  background: #f9f9f9;
-  border-left: 10px solid #ccc;
+  background: $tags-color;
+  border-left: 10px solid $border-color;
   margin: 1.5em 10px;
+  color: $background-color;
   padding: 0.5em 10px;
+  font-style: italic;
   quotes: "\201C""\201D""\2018""\2019";
 }
+
 blockquote:before {
-  color: #ccc;
+  color: $background-color;
   content: open-quote;
   font-size: 4em;
   line-height: 0.1em;
-  margin-right: 0.25em;
+  margin-right: 0.1em;
   vertical-align: -0.4em;
 }
+
 blockquote p {
   display: inline;
 }
