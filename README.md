@@ -1,64 +1,75 @@
-# eleventy-base-blog
+# 11ty-uwu-emergency-blog (´｡• ω •｡`)
 
-A starter repository showing how to build a blog with the [Eleventy](https://github.com/11ty/eleventy) static site generator.
+This was a starter-kit for creating minimal blog, with minimal CSS from https://jrl.ninja/etc/1/ but with some tweaks!! Oh also these also a fork from :
 
-[![Build Status](https://travis-ci.org/11ty/eleventy-base-blog.svg?branch=master)](https://travis-ci.org/11ty/eleventy-base-blog)
+- https://glitch.com/~11ty
+- https://github.com/11ty/eleventy-base-blog
 
-## Demos
+These template was created to save your data while user browsing only 29Kb (10Kb if you remove the google fonts) usefull to store some emergency information. That's it! enjoy the template (*￣▽￣)b
 
-* [On Glitch](https://11ty-eleventy-base-blog.glitch.me/)
+# Features
 
-## Getting Started
+- Small (10Kb) if you remove the google fonts
+- Minimal
+- Not Pretty (add some pretty by include japanese emoji)
+- Not always score 100 on google pages
+- but Fast
 
-### 1. Remix this project.
+# Docs
 
-Then have a look at `.eleventy.js` to see if you want to configure any Eleventy options differently.
+How to something on this code
 
-This project's config differs from 11ty/eleventy-base-blog git repository by the following config section, which enables 404 pages to work in your remix and when hosting your site using `eleventy --serve`. 
+## Run the code
 
-```js
-  eleventyConfig.setBrowserSyncConfig({
-    callbacks: {
-     ready: function(err, bs) {
-       const content_404 = fs.readFileSync('_site/404.html');
-       bs.addMiddleware("*", (req, res) => {
-        // Provides the 404 content without redirect.
-        res.write(content_404);
-        res.end();
-      });
-     }
-    }
-  });
+```bash
+$ npm install
+$ npm start # hot reload
+$ npm build # build the site
+
+# you can serve the _site with this
+$ serve _site # the build folder are _site
 ```
 
-### 2. Installing dependencies happens automatically - thanks, Glitch!
+## Edit CSS
 
-### 3. Edit _data/metadata.json
+All CSS are on `_sass`, compiled and default CSS on `css`
 
-### 4. Press 'Show' to view your new site
+## Adding new page and navigation
 
-The site will reload automatically when something changes. In a normal Glitch project, you would be able to turn this off by unchecking 'Refresh App on Changes', but `eleventy --serve` is what we're using to serve files, and it always `--watch`es.  
+Some ways to add new page :
 
-### Implementation Notes
+- create a folder without `_` prefix and have index.md with title boilerplate
+- create `.njk` file on the root folder with title boilerplate
 
-#### Glitch-specific
-* On Glitch, image files should be stored in `assets`. After uploading a new image, you can use the CDN link the assets drawer provides in your pages.
-  * This means you can remove `png` from `templateFormats`, because Glitch won't allow you to store a `png` outside of `assets`. 
-* `watch.json` controls when Glitch refreshes the server, but since Eleventy is watching for us, we can safely tell it to ignore most of our files. Instead, Eleventy will rebuild and restart BrowserSync when you make changes. 
-   
-#### General Eleventy Help
-* `about/index.md` shows how to add a content page.
-* `posts/` has the blog posts but really they can live in any directory. They need only the `post` tag to be added to this collection.
-* Add the `nav` tag to add a template to the top level site navigation. For example, this is in use on `index.njk` and `about/index.md`.
-* Content can be any template format (blog posts needn’t be markdown, for example). Configure your supported templates in `.eleventy.js` -> `templateFormats`.
-	* Because `css` and `png` are listed in `templateFormats` but are not supported template types, any files with these extensions will be copied without modification to the output (while keeping the same directory structure).
-* The blog post feed template is in `feed/feed.njk`. This is also a good example of using a global data files in that it uses `_data/metadata.json`.
-* This example uses three layouts:
-  * `_includes/layouts/base.njk`: the top level HTML structure
-  * `_includes/layouts/home.njk`: the home page template (wrapped into `base.njk`)
-  * `_includes/layouts/post.njk`: the blog post template (wrapped into `base.njk`)
-* `_includes/postlist.njk` is a Nunjucks include and is a reusable component used to display a list of all the posts. `index.njk` has an example of how to use it.
+Here some example title boilerplate
 
+```txt
+---
+layout: layouts/home.njk
+tags:
+  - nav
+navtitle: Archive
+permalink: /posts/
+---
+```
 
-#### Credits
-<div>Icons made by <a href="https://www.freepik.com/" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/"                 title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
+What does it included?
+
+  - layout : select base layout that these file extend
+  - tags : if your tag is `- nav` it will created new navigation menu
+  - permalink : the route of the file, ex: archive.njk will be accessed on /posts/
+  - navtitle : your navigation title
+
+## Add new blog post
+
+Just add new file with name in `posts` folder
+
+## Change metadata
+
+These site meta are on `metadata.json` file.
+
+## Deploy to netlify
+
+Deploy on one click!
+
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)][deploy-to-netlify]

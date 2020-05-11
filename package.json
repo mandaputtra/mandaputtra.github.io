@@ -4,7 +4,6 @@
   "description": "A starter repository for a blog web site using the Eleventy static site generator.",
   "scripts": {
     "build": "npx gulp build-sass & npx eleventy",
-    "publish-dev": "curl -X POST -d {} $NETLIFY_BUILD_URL",
     "start": "concurrently \"npx eleventy --serve\" \"npx gulp watch-sass\" ",
     "debug": "DEBUG=* npx eleventy"
   },
