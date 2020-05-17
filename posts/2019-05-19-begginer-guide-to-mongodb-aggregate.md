@@ -145,7 +145,7 @@ Okay then we can now get the receiver name :
           }
       ]
   } ... another result]
-{% raw %}
+{% endraw %}
 ```
 Okay nice now send a message to the frontend developer again. But hold on you see the design again it got unread message badge... you should count it. Hmmm. You sit down again and thingking..
 
@@ -158,7 +158,6 @@ You already `$unwind` the clients, should you `$unwind` again the messages? Yes.
 Since using `$sum` in `$project` requires a lot of `$cond` you can simplify your query using `$group`. `$group` had a lot of [accumulator](https://docs.mongodb.com/manual/reference/operator/aggregation/group/#accumulator-operator) operator that can be useful, for detecting the `$last` / `$first` element.
 
 ```js
-{% raw %}
   //  unwind it again
   db.getCollection('chats').aggregate([
       { $match: { clients: "sillybilly@mail.com" } },
@@ -185,7 +184,6 @@ Since using `$sum` in `$project` requires a lot of `$cond` you can simplify your
       "message" : "Hello!",
       "time": ISODate("2019-06-27T04:54:49.528Z")
   }... another result]
-{% endraw %}
 ```
 
 > I think this query isn't performing well, imagine if you had 1000 messages, you will unwind 1000 message, that can affect performance? Comment below if you know the best way 😁
