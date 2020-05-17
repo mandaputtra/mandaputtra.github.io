@@ -2,7 +2,7 @@
 tags: ["javascript", "ffmpeg"]
 title: "Mantain consistent .mp4 video compression with FFmpeg"
 description: "Make your compression with bitrate smooth"
-date: 2020-03-31
+date: 2019-12-31
 ---
 
 So you maybe already know [`ffmpeg`](https://www.ffmpeg.org/) the popular library for video compression, stream, and they had many though you can check that on their website.

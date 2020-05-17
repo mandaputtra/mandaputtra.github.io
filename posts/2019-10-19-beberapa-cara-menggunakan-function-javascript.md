@@ -2,7 +2,7 @@
 tags: ["javascript"]
 title: "Beberapa cara menggunakan function di JavaScript"
 description: "Yak yak yak"
-date: 2020-03-31
+date: 2019-10-19
 ---
 
 Hi! 😃 this is not right. Mungkin ini adalah beberapa cara kita membuat fungsi di JavaScript yang jarang kita gunakan dan saya harap beberapa contoh disini digunakan dengan tepat. Welcome to JavaScript function jungle!
