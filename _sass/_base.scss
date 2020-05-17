@@ -5,7 +5,7 @@ body {
 }
 
 main {
-  max-width: 70ch;
+  max-width: 65ch;
   padding: 2ch;
   margin: auto;
   position: relative;
@@ -14,7 +14,7 @@ main {
 
 p {
   margin: 0.8rem 0;
-  line-height: 1.6;
+  line-height: 1.75;
 }
 
 h1 {
@@ -47,23 +47,28 @@ h4 {
 
 img {
   width: 100vw;
-  max-width: 70ch;
+  max-width: 65ch;
+  border-radius: $border-radius;
+}
+
+pre {
+  border-radius: $border-radius;
 }
 
 blockquote {
   background: $tags-color;
   border-left: 10px solid $border-color;
-  margin: 1.5em 10px;
   color: $background-color;
   padding: 0.5em 10px;
   font-style: italic;
   quotes: "\201C""\201D""\2018""\2019";
+  border-radius: $border-radius;
 }
 
 blockquote:before {
   color: $background-color;
   content: open-quote;
-  font-size: 4em;
+  font-size: 2em;
   line-height: 0.1em;
   margin-right: 0.1em;
   vertical-align: -0.4em;
@@ -77,6 +82,7 @@ blockquote p {
   background-color: $tags-color;
   color: $background-color;
   border-top: 1rem $border-color solid;
+  margin-top: -1.25em;
   margin-bottom: 2rem;
   display: flex;
   justify-content: space-between;
@@ -154,7 +160,7 @@ blockquote p {
       background-color: $tags-color;
       color: $background-color;
       padding: 0.1rem 0.3rem;
-      border-radius: 5px;
+      border-radius: $border-radius;
     }
   }
 }

@@ -1,11 +1,17 @@
 # 11ty-uwu-emergency-blog (´｡• ω •｡`)
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/43ca04f9-b26a-43d6-88ac-08e27e2fd131/deploy-status)](https://app.netlify.com/sites/11ty-uwu-emergency-blog/deploys)
+
 This was a starter-kit for creating minimal blog, with minimal CSS from https://jrl.ninja/etc/1/ but with some tweaks!! Oh also these also a fork from :
 
 - https://glitch.com/~11ty
 - https://github.com/11ty/eleventy-base-blog
 
 These template was created to save your data while user browsing only 29Kb (10Kb if you remove the google fonts) usefull to store some emergency information. That's it! enjoy the template (*￣▽￣)b
+
+Deploy on one click!
+
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)][deploy-to-netlify]
 
 # Features
 
@@ -68,8 +74,4 @@ Just add new file with name in `posts` folder
 
 These site meta are on `metadata.json` file.
 
-## Deploy to netlify
-
-Deploy on one click!
-
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)][deploy-to-netlify]
+[deploy-to-netlify]: https://app.netlify.com/start/deploy?repository=https://github.com/mandaputtra/11ty-uwu-emergency-blog/

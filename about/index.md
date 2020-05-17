@@ -1,6 +1,6 @@
 ---
 layout: layouts/post.njk
-title: Third Point of View
+title: About Me
 tags:
   - nav
 navtitle: Me
