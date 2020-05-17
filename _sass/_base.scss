@@ -55,6 +55,13 @@ pre {
   border-radius: $border-radius;
 }
 
+code {
+  font-family: monospace;
+  background-color: $tags-color;
+  padding: .2em;
+  color: $background-color;
+}
+
 blockquote {
   background: $tags-color;
   border-left: 10px solid $border-color;

@@ -1,10 +1,10 @@
-const { DateTime } = require("luxon");
+const {DateTime} = require("luxon");
 const pluginRss = require("@11ty/eleventy-plugin-rss");
 const pluginSyntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
 const fs = require("fs");
 const getTagList = require("./_11ty/getTagList");
 
-module.exports = function(eleventyConfig) {
+module.exports = function (eleventyConfig) {
   eleventyConfig.addPlugin(pluginRss);
   eleventyConfig.addPlugin(pluginSyntaxHighlight);
   eleventyConfig.setDataDeepMerge(true);
@@ -13,7 +13,7 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addLayoutAlias("base", "layouts/base.njk");
 
   eleventyConfig.addFilter("readableDate", dateObj => {
-    return DateTime.fromJSDate(dateObj, { zone: "utc" }).toFormat(
+    return DateTime.fromJSDate(dateObj, {zone: "utc"}).toFormat(
       "dd LLL yyyy"
     );
   });
@@ -60,9 +60,9 @@ module.exports = function(eleventyConfig) {
 
   eleventyConfig.setBrowserSyncConfig({
     callbacks: {
-      ready: function(err, bs) {
+      ready: function (_err, bs) {
         const content_404 = fs.readFileSync("_site/404.html");
-        bs.addMiddleware("*", (req, res) => {
+        bs.addMiddleware("*", (_req, res) => {
           // Provides the 404 content without redirect.
           res.write(content_404);
           res.end();
