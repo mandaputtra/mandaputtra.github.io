@@ -1,12 +1,23 @@
 ---
 layout: layouts/post.njk
-title: About Me
+title: Some Stories About Me
 tags:
   - nav
 navtitle: Me
 templateClass: tmpl-post
 ---
 
-A software developer — on web to be exact, enjoy solving puzzle and play some platformer game. However, if he feels lonely he also plays some online game with his friends. Work at [Maxsol.id](https://maxsol.id) as a full-stack developer (lot of backend stuff since his CSS skill is bad). Look at this personal website, simple design are the way to hide CSS skills.
+Manda Putra is Software Enginner (Web Development) without *degree* to proof it. Help many companies to do software engineering and also became the part of it. His [company](https://maxsol.id) right now call him Full Stack Developer, although he admid doesn't do well with front-end development.
 
-Commercially code since 2017
+You may want to contact him via [email](mailto:mandaputra@gmail.com) if you had some problem with your software, or you need some companion to dip your toes on these complicated software stuff. 
+
+But before that lest talk about his runtime right now :
+
+  - Work at [MAXSOL](https://maxsol.id) as Full Stack Developer.
+  - Mantain Vue.js ID Group on [github](vuejs.id) and telegram.
+  - Tinkering with his idea of 10 Billion Dollars software that hadn't released yet.
+  - Made a book about programming, blogging about programming and daily life.
+
+Thats it for now, I will update this page if necessary.
+
+You may want to look his [CV](https://docs.google.com/document/d/1u0HUed_PquAmJDqzSFCkIgMJwnE_Fvq4cu9MAstP-5Q/) for more *proofed* reason.

@@ -17,7 +17,7 @@ So, I `git clone` the repo and try to making sense of how this could work.
 
 > In computer networks, a proxy server is a server that acts as an intermediary for requests from clients seeking resources from other servers. - Wikipedia
 
-If you notice on your *dev tools* network tab with the extension enabled, you requested `https://placekeanu/700/350` but on network tab, it says `http://myserver.dev/?url=https%3A%2F%2Fplacekeanu.com%2F700%2F350&l=40` - it pointed to my server and respond a binary result of an image you requested. But the `img-src` tag still on `https://placekeanu/700/350`.
+If you notice on your *dev tools* network tab with the extension enabled, you requested `https://placekeanu/700/350` but on network tab, it says *http://myserver.dev/?url=https%3A%2F%2Fplacekeanu.com%2F700%2F350&l=40* - it pointed to my server and respond a binary result of an image you requested. But the `img-src` tag still on `https://placekeanu/700/350`.
 
 The image aren't saved on the server it is on the fly compression. The cookie itself requested using your server, so it is your server requested the image not the browser.
 
@@ -52,7 +52,7 @@ You can use some useful listener in [`webRequest`](https://developer.chrome.com/
 
 The main player here are `onBeforeRequest` listener. It capture url you requested, payload, header, everything on network tab show. All listener placed on [`background.js`](https://github.com/ayastreb/bandwidth-hero/blob/master/src/background.js).
 
-> beware on using browser extension, make sure it is secure / opensource, cause it will be validated by many people and at least we can make sure that the extension doesn't had unwanted tracking.
+> beware on using browser extension, make sure it is secure / opensource, cause it will be validated by many people at least we can make sure that the extension doesn't had unwanted tracking.
 
 ```js
   // ...

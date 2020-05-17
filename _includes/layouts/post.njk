@@ -5,6 +5,9 @@ layout: layouts/base.njk
 
 <article>
   <header>
+    {% if date %}
+      <p class="date">{{ date | readableDate }}</p>
+    {% endif %}
     <h1>{{ title }}</h1>
     {% for tag in tags %}
       {% set tagUrl %}
@@ -15,9 +18,6 @@ layout: layouts/base.njk
         <a class="postlist-tag" href="{{ tagUrl | url }}">{{ tag }}</a>
       {% endif %}
     {% endfor %}
-    {% if date %}
-      <h2>{{ date | readableDate }}</h2>
-    {% endif %}
   </header>
   <div>
     <div>

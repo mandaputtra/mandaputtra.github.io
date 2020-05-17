@@ -13,13 +13,13 @@ main {
 }
 
 p {
-  margin: 0.8rem 0;
+  margin: 0 0 1.75rem 0;
   line-height: 1.75;
 }
 
 h1 {
   font-size: 2rem;
-  margin: 1rem 0;
+  margin: 0 0 1rem 0;
   font-weight: 600;
 }
 
@@ -52,6 +52,10 @@ table {
   color: $background-color;
 }
 
+a {
+  color: $tags-color;
+}
+
 table tr {
   background: $tags-color;
   border-bottom: 1px solid
@@ -73,14 +77,17 @@ pre {
 
 code {
   font-family: monospace;
-  background-color: $tags-color;
+  border: 1px color $border-color;
+  border-radius: $border-radius;
+  background-color: $border-color;
   padding: .2em;
-  color: $background-color;
+  color: $tags-color;
 }
 
 blockquote {
+  margin: 1rem 0;
   background: $tags-color;
-  border-left: 10px solid $border-color;
+  border-left: 5px solid $border-color;
   color: $background-color;
   padding: 0.5em 10px;
   font-style: italic;
@@ -185,6 +192,9 @@ blockquote p {
 }
 
 article {
+  .date {
+    margin: 0;
+  }
 
   .postlist-tag {
     margin-right: 0.5rem;
@@ -193,6 +203,14 @@ article {
     color: $background-color;
     padding: 0 .3em;
     border-radius: $border-radius;
+  }
+  
+  li {
+    margin-bottom: 0.5rem;
+  }
+
+  li:last-child {
+    margin-bottom: 1.75rem;
   }
 
   li::before {
