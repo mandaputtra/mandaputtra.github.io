@@ -63,7 +63,12 @@ blockquote {
   font-style: italic;
   quotes: "\201C""\201D""\2018""\2019";
   border-radius: $border-radius;
+
+  a {
+    color: $background-color;
+  }
 }
+
 
 blockquote:before {
   color: $background-color;
@@ -165,6 +170,12 @@ blockquote p {
   }
 }
 
+article {
+  li::before {
+    content: '-';
+    margin-right: 0.5em;
+  }
+}
 // the .full-bleed utilities
 // make full bleed on mobile / tablet device
 @include media-query($on-palm) {
