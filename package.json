@@ -5,7 +5,8 @@
   "scripts": {
     "build": "npx gulp build-sass & npx eleventy",
     "start": "concurrently \"npx eleventy --serve\" \"npx gulp watch-sass\" ",
-    "debug": "DEBUG=* npx eleventy"
+    "debug": "DEBUG=* npx eleventy",
+    "deploy": "npm run build && push-dir --dir=_site --branch=master --cleanup"
   },
   "engines": {
     "node": "10.x"
@@ -34,6 +35,7 @@
     "concurrently": "^5.2.0",
     "luxon": "^1.0.0",
     "markdown-it": "^8.4.1",
-    "markdown-it-anchor": "^5.0.2"
+    "markdown-it-anchor": "^5.0.2",
+    "push-dir": "^0.4.1"
   }
 }
