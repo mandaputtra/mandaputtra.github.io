@@ -6,6 +6,9 @@ layout: layouts/base.njk
 <article>
   <header>
     <h1>{{ title }}</h1>
+    {% for tag in tags %}
+      <a class="postlist-tag" href="{{ tagUrl | url }}">{{ tag }}</a>
+    {% endfor %}
     {% if date %}
       <h2>{{ date | readableDate }}</h2>
     {% endif %}

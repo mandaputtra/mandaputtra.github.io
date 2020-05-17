@@ -181,19 +181,20 @@ blockquote p {
     .postlist-date {
       margin-right: 1rem;
     }
-
-    .postlist-tag {
-      margin-right: 0.5rem;
-      text-decoration: none;
-      background-color: $tags-color;
-      color: $background-color;
-      padding: 0.1rem 0.3rem;
-      border-radius: $border-radius;
-    }
   }
 }
 
 article {
+
+  .postlist-tag {
+    margin-right: 0.5rem;
+    text-decoration: none;
+    background-color: $tags-color;
+    color: $background-color;
+    padding: 0 .3em;
+    border-radius: $border-radius;
+  }
+
   li::before {
     content: '-';
     margin-right: 0.5em;
