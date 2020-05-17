@@ -1,5 +1,5 @@
 ---
-tags: ["javascript", "tips" ]
+tags: ["life-log"]
 title: "Biaya yang diperlukan untuk menjadi programmer? Laptop."
 description: "Biaya laptop untuk jadi programmer, dan keluhan"
 date: 2020-02-29
