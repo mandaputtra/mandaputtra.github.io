@@ -47,7 +47,7 @@ Close vim-nya pakai `:wq` buka lagi, terus jalanin command `:PlugInstall` ter-in
 
 Untuk autocomple saya pilih [coc](https://github.com/neoclide/coc.nvim). Karena coc punya banyak plugin, seperti coc-prettier, coc-eslint, coc-vetur, jadi ya tidak ada salahnya untuk pakai itu. Segala developement saya sehari hari JS, Vue, PHP sudah ada plugin-nya di coc, tentu coc juga ringan walapun di tulis pakai JS (Type Script).
 
-Berikut silahkan lihat [disini]() untuk konfigurasi coc saya.
+Berikut silahkan lihat [disini](https://github.com/mandaputtra/dotfiles/blob/master/nvim/plug-config/coc.vim) untuk konfigurasi coc saya.
 
 Nah untuk vue, prettier, dan eslint saya saranin gausah dah pakai plugin lain, prettier, dan eslint juga punya plugin untuk coc, jadi saya pakai aja dah.
 
@@ -56,6 +56,34 @@ Nah untuk vue, prettier, dan eslint saya saranin gausah dah pakai plugin lain, p
   :CocInstall coc-vetur coc-eslint coc-prettier coc-json
 ```
 
-Setelah di install jangan lupa juga untuk setup si **coc-settings.json**-nya. Contoh seperti punya saya [juga boleh]().
+Setelah di install jangan lupa juga untuk setup si **coc-settings.json**-nya. Contoh seperti punya saya [juga boleh](https://github.com/mandaputtra/dotfiles/blob/master/nvim/coc-settings.json).
 
-Setelah itu kita konfigurasi
+Setelah itu kita konfigurasi syntax highlighting-nya nih.
+
+Untuk syntax highlighting, saya pakai [vim-vue-plugins](https://github.com/leafoftree/vim-vue-plugin). Kenapa kok begitu? Karena kita tau sendiri Vue punya struktur [SFC](https://vuejs.org/v2/guide/single-file-components.html), HTML, CSS, dan JS dalam satu komponen.
+
+Installasi plugin tersebut sama seperti yang lain, tetapi kita harus menambahkan satu lagi konfigurasi. Seperti berikut.
+
+```vim
+  let g:LanguageClient_serverCommands = {
+    \ 'vue': ['vls']
+    \ }
+```
+
+Selesai juga akhirnya konfigurasi kita, paling tidak vim-mu terlihat di video ini pas [ngedit komponen vue](https://streamable.com/tpj9xu)
+
+Nah ~ waktunya kesimpulan
+
+## Kesimpulan
+
+Haruskah pakai Vim? Tidak, ga perlu. Saya cuma pengen tangan saya ga bayak pindah dari keyboard aja, biar ga kena [RSI](https://en.wikipedia.org/wiki/Repetitive_strain_injury) dan kalau misal ada kondisi darurat saya harus pakai laptop dengan spek rendah paling tidak ada editor yang bisa saya pakai.
+
+Ingin pakai vim tapi ga pingin konfigurasi? Gampang pakai saja [SpaceVim](https://spacevim.org/). Semua konfigurasi macam syntax, autocomplete, terminal, file navigasi dan lain - lain sudah disediakan :)
+
+Seberapa cepat kita dapat migrasi editor ke Vim? Kalau dipakai terus saya yakin bakal cepet bisa. Untuk sementara ini saya masih 1 Minggu pakai. Waktu kerja saya masih pakai VSCode. Vim cuma saya pakai saat ngedit proyek - proyek hobi. Mungkin 1 - 2 bulan lagi saya akan _full-vim_.
+
+## Catatan
+
+- Kalau ingin lebih mudah soal syntax highlighting, om bisa pakai [vim-vue](https://github.com/posva/vim-vue)
+- Beberapa video dari [toughbout di youtube](https://www.youtube.com/watch?v=XA2WjJbmmoM&list=PL8tzorAO7s0jy7DQ3Q0FwF3BnXGQnDirs) sangat bagus buat latian / konfigurasi vim
+- Lebih baik jangan copas, setup vim orang lain ~ kadang break haha. Mending contih plugin yang dia pakai dan setup sendiri
