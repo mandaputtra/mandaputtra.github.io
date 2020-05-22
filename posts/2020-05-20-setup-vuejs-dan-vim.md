@@ -76,7 +76,6 @@ Seberapa cepat kita dapat migrasi editor ke Vim? Kalau dipakai terus saya yakin 
 
 ## Catatan
 
-- Kalau ingin lebih mudah soal syntax highlighting, om bisa pakai [vim-vue](https://github.com/posva/vim-vue)
 - Beberapa video dari [toughbout di youtube](https://www.youtube.com/watch?v=XA2WjJbmmoM&list=PL8tzorAO7s0jy7DQ3Q0FwF3BnXGQnDirs) sangat bagus buat latian / konfigurasi vim
 - Lebih baik jangan copas, setup vim orang lain ~ kadang break haha. Mending contih plugin yang dia pakai dan setup sendiri
 - Ingat coc-settings.json, pada bagian eslint harus ada filetype `vue`
