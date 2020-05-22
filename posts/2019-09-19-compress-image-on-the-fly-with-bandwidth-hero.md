@@ -1,6 +1,6 @@
 ---
 tags: ["javascript", "howk"]
-title: "Compress with image on the fly with bandwidth hero"
+title: "Compress image on the fly with bandwidth hero"
 description: "Make your browsing more fuzz, with reduced image quality"
 date: 2019-09-19
 ---
@@ -17,7 +17,7 @@ So, I `git clone` the repo and try to making sense of how this could work.
 
 > In computer networks, a proxy server is a server that acts as an intermediary for requests from clients seeking resources from other servers. - Wikipedia
 
-If you notice on your *dev tools* network tab with the extension enabled, you requested `https://placekeanu/700/350` but on network tab, it says *http://myserver.dev/?url=https%3A%2F%2Fplacekeanu.com%2F700%2F350&l=40* - it pointed to my server and respond a binary result of an image you requested. But the `img-src` tag still on `https://placekeanu/700/350`.
+If you notice on your _dev tools_ network tab with the extension enabled, you requested `https://placekeanu/700/350` but on network tab, it says _http://myserver.dev/?url=https%3A%2F%2Fplacekeanu.com%2F700%2F350&l=40_ - it pointed to my server and respond a binary result of an image you requested. But the `img-src` tag still on `https://placekeanu/700/350`.
 
 The image aren't saved on the server it is on the fly compression. The cookie itself requested using your server, so it is your server requested the image not the browser.
 
@@ -87,12 +87,12 @@ Some site had CSP rules on their site, it can be pass by adding the correct head
 
 ## Some Image wont compressed?
 
-Yes it is, since it uses web request proxy it cant process image that already declared (blob / base64) on src like this 
+Yes it is, since it uses web request proxy it cant process image that already declared (blob / base64) on src like this
 
 ```html
-  <img src="somehowdev.towont upload some html tag with base64"/>
+<img src="somehowdev.towont upload some html tag with base64" />
 ```
 
 You will see this on google search result, however it still usefull if you open website that had lot of images, facebook, reddit, 9gag etc.
 
-Thanks for reading! I usualy visit some opensource project and make sense on how it works, since it can be usefull way on doing somethings. See ya next *Howk*. Have a good day; be good people.
+Thanks for reading! I usualy visit some opensource project and make sense on how it works, since it can be usefull way on doing somethings. See ya next _Howk_. Have a good day; be good people.
