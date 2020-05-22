@@ -149,7 +149,7 @@ blockquote p {
 
 .footer-wrapper {
   margin-top: 2rem;
-  background-color: $border-color;
+  background-color: $tags-color;
   padding: .5rem 0.4rem;
   color: $background-color;
   font-weight: 600;
@@ -177,9 +177,10 @@ blockquote p {
     flex-direction: row;
     flex-wrap: wrap;
 
-    .postlist-title::before {
-      content: "📖";
-    }
+      .postlist-title {
+        text-decoration: none;
+      }
+
   }
 }
 
