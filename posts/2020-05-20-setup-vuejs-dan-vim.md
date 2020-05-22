@@ -45,7 +45,7 @@ Close vim-nya pakai `:wq` buka lagi, terus jalanin command `:PlugInstall` ter-in
 
 ## Setup Auto Complete dan Vue
 
-Untuk autocomple saya pilih [coc](https://github.com/neoclide/coc.nvim). Karena coc punya banyak plugin, seperti coc-prettier, coc-eslint, coc-vetur, jadi ya tidak ada salahnya untuk pakai itu. Segala developement saya sehari hari JS, Vue, PHP sudah ada plugin-nya di coc, tentu coc juga ringan walapun di tulis pakai JS (Type Script).
+Untuk autocomplete saya pilih [coc](https://github.com/neoclide/coc.nvim). Karena coc punya banyak plugin, seperti coc-prettier, coc-eslint, coc-vetur, jadi ya tidak ada salahnya untuk pakai itu. Segala developement saya sehari hari JS, Vue, PHP sudah ada plugin-nya di coc, tentu coc juga ringan walapun di tulis pakai JS (Type Script).
 
 Berikut silahkan lihat [disini](https://github.com/mandaputtra/dotfiles/blob/master/nvim/plug-config/coc.vim) untuk konfigurasi coc saya.
 
@@ -53,24 +53,16 @@ Nah untuk vue, prettier, dan eslint saya saranin gausah dah pakai plugin lain, p
 
 ```bash
   # run di dalam command vim SHIFT + :
-  :CocInstall coc-vetur coc-eslint coc-prettier coc-json
+  :CocInstall coc-eslint coc-prettier coc-json
 ```
 
 Setelah di install jangan lupa juga untuk setup si **coc-settings.json**-nya. Contoh seperti punya saya [juga boleh](https://github.com/mandaputtra/dotfiles/blob/master/nvim/coc-settings.json).
 
 Setelah itu kita konfigurasi syntax highlighting-nya nih.
 
-Untuk syntax highlighting, saya pakai [vim-vue-plugins](https://github.com/leafoftree/vim-vue-plugin). Kenapa kok begitu? Karena kita tau sendiri Vue punya struktur [SFC](https://vuejs.org/v2/guide/single-file-components.html), HTML, CSS, dan JS dalam satu komponen.
+Vue punya konsep [SFC](https://vuejs.org/v2/guide/single-file-components.html) jadi agak spesial caranya, tapi tenang - selalu ada plugin haha. Saya pakai [vue-vim](https://github.com/posva/vim-vue) dan untuk plugin comment saya ikut dokumentasi dari vim-vue juga.
 
-Installasi plugin tersebut sama seperti yang lain, tetapi kita harus menambahkan satu lagi konfigurasi. Seperti berikut.
-
-```vim
-  let g:LanguageClient_serverCommands = {
-    \ 'vue': ['vls']
-    \ }
-```
-
-Selesai juga akhirnya konfigurasi kita, paling tidak vim-mu terlihat di video ini pas [ngedit komponen vue](https://streamable.com/tpj9xu)
+Selesai juga akhirnya konfigurasi kita, paling tidak vim-mu terlihat di video ini pas [ngedit komponen vue](https://streamable.com/ynhnxo)
 
 Nah ~ waktunya kesimpulan
 
@@ -87,3 +79,4 @@ Seberapa cepat kita dapat migrasi editor ke Vim? Kalau dipakai terus saya yakin 
 - Kalau ingin lebih mudah soal syntax highlighting, om bisa pakai [vim-vue](https://github.com/posva/vim-vue)
 - Beberapa video dari [toughbout di youtube](https://www.youtube.com/watch?v=XA2WjJbmmoM&list=PL8tzorAO7s0jy7DQ3Q0FwF3BnXGQnDirs) sangat bagus buat latian / konfigurasi vim
 - Lebih baik jangan copas, setup vim orang lain ~ kadang break haha. Mending contih plugin yang dia pakai dan setup sendiri
+- Ingat coc-settings.json, pada bagian eslint harus ada filetype `vue`
