@@ -1,7 +1,7 @@
 <ol class="postlist-wrapper" reversed>
 {% for post in postslist | reverse %}
   <li class="postlist">
-    <span>
+    <p>
       <time class="postlist-date" datetime="{{ post.date | htmlDateString }}">
        {{ post.date | readableDate }}
       </time>
@@ -11,7 +11,7 @@
         {% endif %}
       </a>
 
-    </span>
+    </p>
   </li>
 {% endfor %}
 </ol>

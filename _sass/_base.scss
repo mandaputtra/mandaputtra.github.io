@@ -172,6 +172,11 @@ blockquote p {
   flex-direction: column;
 
   .postlist {
+    p {
+      line-height: 1.5;
+      margin: 0;
+    }
+
     margin: .5rem 0;
     display: flex;
     flex-direction: row;
@@ -217,14 +222,6 @@ article {
 // the .full-bleed utilities
 // make full bleed on mobile / tablet device
 @include media-query($on-palm) {
-  pre {
-    width: 100vw;
-    max-width: 100ch;
-    position: relative;
-    left: 50%;
-    margin-left: -50vw !important;
-  }
-
   img {
     max-width: 100ch;
     position: relative;
@@ -250,7 +247,8 @@ article {
     text-align: center;
     
     h1 {
-      margin-bottom: 1rem;
+      font-size: 1em;
+      margin-bottom: .5em;
     }
 
     ul {
