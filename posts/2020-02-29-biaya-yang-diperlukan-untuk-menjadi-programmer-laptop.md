@@ -7,7 +7,7 @@ date: 2020-02-29
 
 Semua pekerjaan butuh modal, entah itu dedikasi belajar yang tinggi, relasi, atau uang. Seseorang tanya saya "Mas, kalau mau jadi programmer butuh modal berapa, apa aja?".
 
-Menarik, tidak ada yang pernah tanya seperti ini, padahal saya sering komplain kalau laptop baru harga 4 juta aja masih kalah sama droplet DO yang $5 USD per-bulan.
+Menarik, tidak ada yang pernah tanya seperti ini, padahal saya sering komplain kalau laptop baru harga 4 juta aja masih kalah sama droplet DO yang \$5 USD per-bulan.
 
 Makin lama tak terasa jadi programmer bukanlah hal yang 'murah', apalagi sekarang bukan kaya dulu lagi ~ dulu kebanyakan setiap perusahaan menyediakan pegawainya laptop untuk bekerja, sekarang kemungkinan tidak - lebih banyak.
 
@@ -27,19 +27,19 @@ Pokoknya pilih yang sekiranya kamu mampu menjalani, mau nongkrong di rumah orang
 
 Ini laptop [saya dulu](https://www.sg-comp.com/lenovo-g40-45-amd-e1-harga-ekonomis-kinerja-efektif/) harga di tahun 2012 3jt di beliin ortu. Saat pertama saya kerja freelance (sekitar tahun 2018) pakai laptop itu, terpaksa saya harus pakai arch, editor geany, karena apa? ringan hemat memori (RAM). Jadi saya masih bisa buka firefox sambil ngoding Angular. Beruntungnya di rumah komputer saya cukup bagus jadi saya jarang pakai laptop buat ngoding kecuali saya harus keluar rumah.
 
-Nah komponen laptop yang aslinya perlu diperhatikan pada saat ingin membeli adalah sebgai berikut.
+Nah komponen laptop yang bener - bener perlu diperhatikan adalah sebagai berikut.
 
 ### Penyimpanan harus SSD!
 
 Dalam dunia kerja nanti kebanyakan akan dikasih project yang udah jalan cukup lama. File `.git` ini ternyata cukup berat untuk project project lama dikarenakan menyimpan banyak histori.
 
-SSD sangat diperlukan dikarenakan proses 'ngoding' selaras dengan proses membaca / menulis file, dengan adanya SSD kita dapat cepat. Perbedaan penggunaan SSD dan HDD ini cukup kentara, aplagi saat `git checkout`, `compiling`, `hot reload`, `linting`, dan banyak lagi.
+SSD sangat diperlukan dikarenakan proses 'ngoding' selaras dengan proses membaca / menulis file, dengan adanya SSD tentunya sangat membantu. Perbedaan penggunaan SSD dan HDD ini cukup kentara, aplagi saat `git checkout`, `compiling`, `hot reload`, `linting`, dan banyak lagi.
 
-Aku selalu rekomen 256Gb, karena ini sangat cukup untuk menyimpan kode, OS, experimen ga penting penting banget dan sebagainya.
+Aku selalu rekomen 256Gb, karena ini sangat cukup untuk menyimpan kode, OS, experimen ga penting - penting banget dan sebagainya.
 
 ### CPU ? 2.4Ghz
 
-Soal CPU akusi oke - oke aja mau pakai 1.4Ghz atau 2.4Ghz, tapi tetap rekomen 2.4Ghz, kenapa? Yah ternyata oh ternyata lagi lagi, bukan hanya soal Disk I/O aja.
+Soal CPU akusi oke - oke aja mau pakai 1.4Ghz atau 2.4Ghz, tapi tetap rekomen 2.4Ghz, kenapa? Yah ternyata oh ternyata lagi - lagi, bukan hanya soal Disk I/O aja.
 
 Peforma CPU ini sangat diperlukan untuk `compiling` yang memanfaatkan banyak proses pada CPU, Tapi yang terpenting tetaplah SSD.
 
@@ -47,10 +47,11 @@ Peforma CPU ini sangat diperlukan untuk `compiling` yang memanfaatkan banyak pro
 
 RAM minimal 8Gb ~ Dulu 2018 kalau mau build website pakai webpack, aku harus close dulu browser, biar cepat. Menyedihkan tapi tidak apa apa yang penting jalan.
 
-Beberapa program akan memakan banyak RAM, seperti Browser, Android Studio,  dan lain lain.
+Beberapa program akan memakan banyak RAM, seperti Browser, Android Studio, dan lain lain.
 
 ## Rangkuman
 
 Tidak juga biaya Internet, Programmer perlu biaya laptop, tentu tanpa laptop-pun kamu bisa ngoding ~ spesifikasi rekomendasi sebagai berikut CPU 2.4Ghz, RAM 8Gb dan SSD 256Gb. Komponen terpenting adalah SSD. Mau bekas atau mau baru, mau bisa di upgrade atau tidak. Yang penting siap tempur :)
 
 Sama oiya kalau mau develop aplikasi iOS / Mac ya harus pakai MacBook yak, ga ada pilihan lain kecuali Hackintos (Kalau mau ribet).
+
