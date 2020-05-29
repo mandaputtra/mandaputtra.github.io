@@ -39,8 +39,7 @@ Literasi tentang pemmrogramman dengan bahasa Indonesia tidak terlalu banyak, jad
 
 ## Podcast
 
-I love podcast, sometimes I just search on [dev.to podcast](https://dev.to/pod)
-section.
+I love podcast, sometimes I just search on [dev.to podcast](https://dev.to/pod) section.
 
 But here some list :
 
